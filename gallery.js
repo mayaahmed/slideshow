@@ -135,6 +135,7 @@ if (step<n-1)
 function slideOpen(el){
 el.style.transition="height 0.5s linear 0s";
 el.style.height="100%";
+el.style.border="1px solid khaki";
 
 }
 
@@ -142,16 +143,7 @@ function slideClose(el){
   
 el.style.transition="height 1.0s linear 0s";
 el.style.height="0px";
-}
-
-function fadeIn(el){
-el.style.transition="opacity 1.0s linear 0s";
-el.style.opacity=1;
-}
-
-function fadeOut(el){
-el.style.transition="opacity 1.0s linear 0s";
-el.style.opacity=0;
+el.style.border="none";
 }
 
 
